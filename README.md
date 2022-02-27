@@ -1,5 +1,5 @@
 
-##### Tags: `HTML` `CSS` `JavaScript` `Bootstrap` `Python` `matplotlib` `pandas` `Figma` `Photoshop` `Canva`
+##### Tags: `HTML` `CSS` `JavaScript` `Bootstrap` `Python` `matplotlib` `pandas` `Figma` `Photoshop` `Canva` `OBS`
 
 # Earthentic
 
@@ -42,34 +42,38 @@ Below are the following features that are capable for the app:
 
 ### Home
 - Provides the user with our slogan and the purpose of the product.
-	- <img src="" height=400>
+	- <img src="https://i.imgur.com/63PQy7Y.png">
+	- <img src="https://i.imgur.com/hlUBNwr.png">
 
 ### Define
 - Provides the user with the definition of global warming.
-	- <img src="" height=400>
+	- <img src="https://i.imgur.com/c4oVM4t.png">
 
 ### Impacts Section
 
 #### Temperature
 - Provides the user with information on how temperatures are affected by global warming.
-    - <img src="" height=400>
+    - <img src="https://i.imgur.com/AbiX1es.png">
+    - <img src="https://i.imgur.com/KNmmvjp.png">
 
 #### Sea Levels
 - Provides the user with information on how sea levels are affected by global warming.
-    - <img src="" height=400>
+    - <img src="https://i.imgur.com/89gmY3l.png">
+    - <img src="https://i.imgur.com/BPZGqPU.png">
 
 #### CO2 Levels
 - Provides the user with information on how carbon dioxide emissions relates to global warming.
-    - <img src="" height=400>
+    - <img src="https://i.imgur.com/fG3bywP.png">
+    - <img src="https://i.imgur.com/qyQTMTX.png">
 
 ### More
 - Provides the user with the resources used for the product, as well as two videos to further educate the user on the topic at hand.
-    - <img src="" height=400>
+    - <img src="https://i.imgur.com/ZKekZXS.png">
 
 
 ### Contact
 - Provides the user with information regarding the creators of Earthentic.
-    - <img src="" height=400>
+    - <img src="https://i.imgur.com/nnrNr48.png">
 
 
 ## Built With
@@ -86,13 +90,13 @@ Below are the following features that are capable for the app:
 
 ## Authors
 
-- **David Mena** - [DavidMena](https://github.com/davidmena1239)
+- **David Mena** - [David Mena](https://github.com/davidmena1239)
     - Front-end Development
     - Data Analysis
     - Data Visualization
     - MVC Architecture design
     
-- **Efaz Ahmed** - [EfazAhmed](https://github.com/EfazAhmed)
+- **Efaz Ahmed** - [Efaz Ahmed](https://github.com/EfazAhmed)
     - UI/UX Development
     - Data Collection
     - MVC Architecture design
