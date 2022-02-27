@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+
+    <!-- Favicon -->
+		<link rel="shortcut icon" type="image/jpg" href="images/favicon.ico"/>
+
+    <!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- For the font -->
+    <link href="https://fonts.googleapis.com/css2?family=Ovo&display=swap" rel="stylesheet">
+
+    <link href = "enviro.css" rel = "stylesheet">
+
+    <title>Earthentic</title>
+  </head>
+  <body class = "pollutBG">
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light navcolor">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">EARTHENTIC</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="define.html">DEFINE</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" aria-current="page" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                IMPACTS
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="temp.html">TEMPERATURE</a></li>
+                <li><a class="dropdown-item" href="sea.html">SEA LEVELS</a></li>
+                <li><a class="dropdown-item" href="co2.html">CO2 LEVELS</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="more.html">MORE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <div>
+    <h2 class = "herotext12">CO2 Levels</h2>
+  </div>
+
+  <div class = "cont3">
+    <img src = "images/co2Levels.jpg" height = "230" width = "380" alt = "Carbon dioxide emission levels throughout the years" class = "co2">
+
+    <h4 class = "herotext13">This graph displays the recorded emissions of enitites throughout the decades. As seen, there is a clear trend which shows an increase in the total amount of carbon dioxide emitted per year. What was once an average of 1.0 ppm (parts per million), is now about 2.3 ppm. Should the trend continue, the amount of CO2 entering the atmosphere will continue to rise.</h4>
+
+    <div class = btnDiv4>
+      <input class = "scrollBtn4" type="image" src = "images/scrollBtn3.jpg" style="border: double;" height="45" width="45" onClick="document.getElementById('middle').scrollIntoView();"/>
+    </div>
+  </div>
+
+
+	<!-- End Image -->
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <div class = "cont4" id = 'middle'>
+    <img src = "images/factory.jpg" height = "250" width = "310" alt = "Factory" class = "factory">
+
+    <h4 class = "herotext14">A main contributor to the increasing carbon emissions is the lack of laws surrounding how companies are allowed to dispose of waste and how big their carbon footprint is allowed to be. According to a report, just 25 corporations and state-owned entites are responsible for more than 50% of carbon emissions since 1988. With no one to try and stop them from continuing, these companies have prioritized profit over the health of the planet.</h4>
+  </div>
+
+  <footer class = "ftCo2"> &copy; 2022 Earthentic by David Mena, Efaz Ahmed, Emily Chavez, Jahn Vallejo. All Rights Reserved. </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- meta tags -->
+    <meta charset="utf-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+
+    <!-- Favicon -->
+		<link rel="shortcut icon" type="image/jpg" href="images/favicon.ico"/>
+
+    <!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- For the font -->
+    <link href="https://fonts.googleapis.com/css2?family=Ovo&display=swap" rel="stylesheet">
+
+    <link href = "enviro.css" rel = "stylesheet">
+
+    <title>Earthentic</title>
+  </head>
+  <body class = "oceanBG">
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-light navcolor">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">EARTHENTIC</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="define.html">DEFINE</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle active" aria-current="page" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                IMPACTS
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="temp.html">TEMPERATURE</a></li>
+                <li><a class="dropdown-item" href="sea.html">SEA LEVELS</a></li>
+                <li><a class="dropdown-item" href="co2.html">CO2 LEVELS</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="more.html">MORE</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+  <div>
+    <h2 class = "herotext9">SEA LEVELS</h2>
+  </div>
+
+  <div class = "gsl">
+    <img src = "images/globalSeaLevel.jpg" height = "250" width = "380" alt = "Global Sea Level">
+  </div>
+
+  <div>
+    <h4 class = "herotext10">This chart, taken from Climate.gov, shows the recorded sea levels from 1880 to 2020. Due to carbon emission levels continually rising, enough ice from the poles melted to increase the global sea level. It has been on a steady climb, and it is expected to continue rising since we don’t have any implemenations to stop our increased emissions. Having a rising sea level is dangerous because it makes land previously safe from floods, susceptible. In addition, it can leave land that was previously above water, submerged and unusable.</h4>
+  </div>
+
+  <div class = btnDiv3>
+    <input class = "scrollBtn3" type="image" src = "images/scrollBtn3.jpg" style="border: double;" height="45" width="45" onClick="document.getElementById('middle').scrollIntoView();"/>
+  </div>
+
+	<!-- End Image -->
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  <div class = "cont2" id = 'middle'>
+    <img src = "images/nyc.jpg" height = "250" width = "310" alt = "New York City Sea level" class = "nyc">
+
+    <h4 class = "herotext11">A problem that our future architecture faces is in regards to the height they built and how close it was to the ocean. With ocean levels continuing to rise following a trend, it is expected that by 2200, parts of NYC will be submerged. These areas, following the trend of rising global temperature, will be submerged when the global temperature rises by 2 degrees celsius.</h4>
+  </div>
+
+  <br><br>
+
+  <footer class = 'ftSea'> &copy; 2022 Earthentic by David Mena, Efaz Ahmed, Emily Chavez, Jahn Vallejo. All Rights Reserved. </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </div>
+  </body>
+</html>

@@ -1,0 +1,554 @@
+.navbar-brand, .nav-item{
+  font-weight: bold;
+  font-family: 'Ovo', serif;
+}
+
+.navbar-brand{
+  margin-left: 15px;
+  font-size: 24px;
+}
+
+.navcolor .navbar-brand,
+.navcolor .navbar-text {
+    color: white;
+}
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+}
+
+.nav-item{
+  padding-right: 30px;
+}
+
+.nav-item a:hover{
+  color: green;
+}
+
+.navbar-nav{
+  margin-left: auto;
+}
+
+.mountBG{
+  background-image: url("images/mountains.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logoDiv{
+  text-align: center;
+}
+
+.herotext{
+  text-align: center;
+  color: white;
+  font-size: 2.5em;
+  text-shadow: 4px 4px 10px black;
+  font-weight: bold;
+  font-family: 'Ovo', serif;
+}
+
+.herotext2{
+  text-align: center;
+  color: white;
+  font-size: 1.5em;
+  text-shadow: 4px 4px 10px black;
+  font-weight: bold;
+  font-family: 'Ovo', serif;
+}
+
+.mainTxt{
+  background-color: rgba(0, 0, 0, 0.5);
+  border: solid black;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  padding: 30px;
+}
+
+.scrollBtn{
+  margin-top: 3%;
+  border-radius: 50%;
+}
+
+.btnDiv{
+  text-align: center;
+}
+
+.text2{
+  background-color: rgba(0, 0, 0, 0.5);
+  border: solid black;
+  color: white;
+  top: 100%;
+  text-align: center;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 10px;
+  margin: 150px 170px;
+  font-family: 'Ovo', serif;
+}
+
+.defClass span{
+  font-weight: bold;
+}
+
+/* Define Page CSS */
+.herotext3{
+  color: white;
+  padding: 15px;
+  background-color: rgba(121, 135, 114, 0.8);
+  text-align: center;
+  margin-top: 8%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  font-family: 'Ovo', serif;
+}
+
+.herotext4{
+  color: white;
+  padding: 15px;
+  background-color: rgba(121, 135, 114, 0.8);
+  text-align: center;
+  margin-top: 3%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  font-family: 'Ovo', serif;
+}
+
+/* Temperature page css */
+.skyBG{
+  background-image: url("images/sky.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.herotext5{
+  color: white;
+  padding: 8px;
+  background-color: rgba(149, 66, 78, 0.8);
+  text-align: center;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 42%;
+  font-family: 'Ovo', serif;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.tempChange{
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 1%;
+}
+
+.herotext6{
+  color: white;
+  padding: 8px;
+  background-color: rgba(149, 66, 78, 0.8);
+  text-align: center;
+  margin-top: 1%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 42%;
+  font-family: 'Ovo', serif;
+  border-radius: 7px;
+  font-size: 16px;
+}
+
+.scrollBtn2{
+  border-radius: 50%;
+}
+
+.btnDiv2{
+  text-align: center;
+}
+
+.herotext7{
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  background-color: rgba(149, 66, 78, 0.8);
+  text-align: left;
+  margin-left: 15%;
+  margin-right: auto;
+  width: 35%;
+  height: 100%;
+  font-family: 'Ovo', serif;
+  border-radius: 7px;
+  font-size: 16px;
+  margin-bottom: 150px;
+  font-weight: bold;
+  float: left;
+}
+
+.fire{
+  margin-left: 5%;
+}
+
+.herotext8{
+  color: white;
+  padding-top: 8px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  background-color: rgba(149, 66, 78, 0.8);
+  text-align: left;
+  margin-top: 1%;
+  margin-left: 55%;
+  margin-right: auto;
+  width: 31.5%;
+  height: 100%;
+  font-family: 'Ovo', serif;
+  border-radius: 7px;
+  font-size: 10px;
+  margin-bottom: 150px;
+}
+
+/* Sea Level page css */
+.oceanBG{
+  background-image: url("images/ocean.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.herotext9{
+  color: white;
+  padding: 8px;
+  background-color: rgb(134, 144, 164);
+  text-align: center;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 42%;
+  font-family: 'Ovo', serif;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.gsl{
+  float: left;
+  margin-right: 10%;
+  margin-left: 10%;
+  border-radius: 10px;
+  margin-top: 2%;
+}
+
+.herotext10{
+  color: white;
+  padding: 14px;
+  background-color: rgb(134, 144, 164);
+  text-align: center;
+  margin-top: 4%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 42%;
+  font-family: 'Ovo', serif;
+  border-radius: 7px;
+  font-size: 16px;
+  float: left;
+}
+
+.scrollBtn3{
+  border-radius: 50%;
+}
+
+.btnDiv3{
+  margin-top: 25%;
+  text-align: center;
+  clear: both;
+}
+
+.nyc{
+  margin-left: 15%;
+  border-radius: 7px;
+  margin-bottom: -120px;
+  margin-top: 5%;
+}
+
+.herotext11{
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  background-color: rgb(134, 144, 164);
+  text-align: left;
+  margin-top: -8%;
+  margin-left: 50%;
+  margin-right: auto;
+  margin-bottom: 135px;
+  width: 35%;
+  font-family: 'Ovo', serif;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: bold;
+  clear: right;
+}
+
+/* CO2 page css */
+.pollutBG{
+  background-image: url("images/pollution.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.herotext12{
+  color: white;
+  padding: 8px;
+  background-color: rgba(105, 105, 105, 0.8);
+  text-align: center;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 42%;
+  font-family: 'Ovo', serif;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.co2{
+  margin-left: 15%;
+  border-radius: 7px;
+  margin-bottom: -140px;
+  margin-top: 5%;
+}
+
+.herotext13{
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  background-color: rgba(105, 105, 105, 0.8);
+  text-align: left;
+  margin-top: -6%;
+  margin-left: 50%;
+  margin-right: auto;
+  margin-bottom: 130px;
+  width: 35%;
+  font-family: 'Ovo', serif;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: bold;
+  clear: right;
+}
+
+.scrollBtn4{
+  margin-top: -180px;
+  border-radius: 50%;
+}
+
+.btnDiv4{
+  text-align: center;
+}
+
+.factory{
+  margin-left: 15%;
+  border-radius: 7px;
+  margin-bottom: -140px;
+  margin-top: 5%;
+}
+
+.herotext14{
+  color: white;
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 20px;
+  padding-bottom: 35px;
+  background-color: rgb(134, 144, 164);
+  text-align: left;
+  margin-top: -7%;
+  margin-left: 50%;
+  margin-right: auto;
+  margin-bottom: 130px;
+  width: 35%;
+  font-family: 'Ovo', serif;
+  border-radius: 7px;
+  font-size: 16px;
+  font-weight: bold;
+  clear: right;
+}
+
+/* More page css */
+.vidTxt{
+  text-align: left;
+  margin-bottom: 2%;
+}
+
+.herotext15{
+  color: white;
+  padding: 8px;
+  background-color: rgba(105, 105, 105, 0.8);
+  text-align: center;
+  margin-top: 2%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  font-family: 'Ovo', serif;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.cont5, .cont6{
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+}
+
+.vid1, .vid2{
+  margin-bottom: 5%;
+}
+
+.cont7{
+  margin-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  color: white;
+  padding: 8px;
+  background-color: rgba(105, 105, 105, 0.8);
+  text-align: left;
+  border-radius: 7px;
+  font-weight: bold;
+  font-size: 22px;
+  font-family: 'Ovo', serif;
+}
+
+.cont7 a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Ovo', serif;
+}
+
+.cont7 a:hover{
+  text-decoration: none;
+  color: darkblue;
+  font-family: 'Ovo', serif;
+}
+
+.cont7 h3, .cont7 h4{
+  color: darkblue;
+}
+
+/* Contact Page CSS */
+.sunsetBG{
+  background-image: url("images/sunset.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* GRID MENU */
+.container{
+    max-width: 1200px;
+    margin: 0 auto; /*makes it centered*/
+    padding: 1.5em;
+}
+
+.grid{
+    font-family: 'Ovo', serif;
+    font-size: 14px;
+
+}
+
+.heading{
+    margin: 0;
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid #F5F7ED;
+    font-family: 'Ovo', serif;
+    text-shadow: 0px 0px 10px black;
+    color: white;
+}
+.group{   /* main container */
+    display: grid;
+    grid-template-columns: 1fr; /*this allows you to specify what your columns look like and how they will be sized. 1fr means each grid column will take up the full width of our menu group */
+    gap: 1.5em; /*space between each menu items */
+    padding: 1.5em 0; /*top/bottom and left/right*/
+
+}
+
+.item{
+    display: flex; /*will put the text next to the image*/
+}
+
+.itemImage{
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0; /*Will keep the image at the dimensions we set it, so it won't get shrunk*/
+    object-fit: cover;
+    margin-right: 1.5em;
+
+}
+
+.itemText{
+    flex-grow: 1; /*whole width taken up by text now*/
+
+}
+
+.itemHeading{
+    display: flex;
+    justify-content: space-between;
+    margin: 0; /*to make heading inline with top of image*/
+    font-weight: bold;
+}
+
+.itemName{
+    margin-right: 1.5em; /*puts space between heading and price when shrinking*/
+    text-shadow: 0px 0px 10px white;
+}
+
+.itemDescription{
+  font-family: 'Ovo', serif;
+  color: white;
+  text-shadow: 0px 0px 10px black;
+}
+
+footer{
+  text-align: center;
+  color: black;
+  position: fixed;
+  padding: 8px;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  background-color: #F3F0EC;
+}
+
+.ftDef{
+  background-color: rgba(121, 135, 114, 0.8);
+  color: white;
+}
+
+.ftInd{
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.ftTemp{
+  background-color: rgba(149, 66, 78, 0.8);
+  color: white;
+}
+
+.ftSea{
+  background-color: rgb(134, 144, 164);
+  color: white;
+}
+
+.ftCo2{
+  background-color: rgba(105, 105, 105, 0.8);
+  color: white;
+}
+
+.ftMore{
+  background-color: rgba(105, 105, 105, 0.8);
+  color: white;
+}
